@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="instructions">
+        <p>Instructions: Press G to load the bow | S to aim up | W to aim down | K to shoot</p>
+        <p>Hit the box to score! The box will change position or size after each hit.</p>
+        <p>Score: <span id="score">0</span> | Time: <span id="timer">0.00</span>s</p>
+        <p>Fastest Time (at 5 hits): <span id="fastestTime">N/A</span> | Highest Score: <span id="highestScore">0</span></p>
+        <button id="startButton">Start Game</button>
+        <button id="resetButton">Reset Timer</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
